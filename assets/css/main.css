@@ -1468,7 +1468,7 @@ input, select, textarea {
 /* Sections/Article */
 
 	section, article {
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 
 	section > :last-child,
@@ -1853,7 +1853,7 @@ input, select, textarea {
 		font-size: 0.85em;
 		letter-spacing: 2px;
 		padding: 0.25em 1em 0.25em 1em;
-		margin: 0 0 2.5em 0;
+		margin: 0 0 1em 0;
 	}
 
 /* Icons */
@@ -1931,7 +1931,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			font-weight: 400;
 			color: #888;
-			margin: 2.5em 0 0 0;
+			margin: 1.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
 			text-align: center;
@@ -2252,7 +2252,7 @@ input, select, textarea {
 
 /* Large */
 
-	@media screen and (max-width: 1280px) {
+	@media screen and (max-width: 3000px) {
 
 		/* Basic */
 
@@ -2277,7 +2277,7 @@ input, select, textarea {
 		/* Header */
 
 			#header > .container {
-				padding: 12em 0 5em 0;
+				padding: 5em 0 3em 0;
 			}
 
 			#header h1 {
@@ -2287,7 +2287,7 @@ input, select, textarea {
 		/* Nav */
 
 			#nav > ul > li {
-				padding-right: 1.25em;
+				padding-right: 0.5em;
 			}
 
 		/* Features */
@@ -2299,11 +2299,11 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 8em 0;
+				padding: 5em 0;
 			}
 
 				#banner > .container {
-					padding: 0 8em;
+					padding: 0 5em;
 				}
 
 					#banner > .container br {
@@ -2313,13 +2313,13 @@ input, select, textarea {
 		/* Main */
 
 			#main {
-				padding: 4em 0;
+				padding: 2em 0;
 			}
 
 		/* Footer */
 
 			#footer {
-				padding: 4em 0;
+				padding: 2em 0;
 			}
 
 		/* Copyright */
